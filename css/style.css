@@ -1,0 +1,160 @@
+#header{
+    background-color: #ff4f81;
+    color: white;
+}
+h1{
+    color: #ff4f81;
+    text-transform: uppercase;
+}
+.header-right i{
+    transition: all 0.5s;
+    border: 2px solid transparent;
+
+}
+.header-right i:hover{
+    color: #ff4f81;
+    border: 2px solid white;
+}
+nav .navbar-brand--logo p{
+color: #ff4f81;
+font-size: 1.2rem;
+font-weight: 600;
+margin-top: -0.3rem;
+}
+nav .navbar-nav--menu{
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+nav .navbar-nav--menu li{
+    padding: 0 0.5rem;
+}
+nav .nav-item__line{
+    width: 100%;
+    height: 0.2rem;
+    background-color:transparent;
+    transition: all 0.5s;
+}
+nav .nav-link{
+    transition: all 0.5s;
+}
+nav .navbar-nav--menu .nav-item:hover>.nav-item__line{
+    background-color:#ff4f81;
+}
+nav .navbar-nav--menu .nav-item:hover>.nav-link{
+    color: #ff4f81;
+}
+nav .active .nav-link{
+    color: #ff4f81 !important;
+}
+/* CAROUSEL */
+.carousel .carousel-caption--config {
+    bottom: 35%;
+}
+.carousel .carousel-indicators--config{
+    bottom: 25%;
+}
+.carousel .carousel-caption--config h1{
+    text-transform: capitalize;
+}
+.carousel .btn--read-more:hover{
+    background-color: #ff4f81;
+    color: white;
+}
+/* WELCOME TO EDUCATION */
+
+ h3{
+    text-transform: capitalize;
+}
+.line{
+    height: 2px;
+    width: 20%;
+    background-color: #ff4f81;
+}
+.container--education .row--second i{
+    color: #ff4f81;
+    font-size: 1.8rem;
+}
+.container--education .row--second h2{
+    color: #ff4f81;
+}
+/* OUR START */
+.start-section{
+    background-image: url(../img/banner2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    min-height: 25rem;
+}
+
+.start-section i{
+    color: #ff4f81;
+    font-size: 2rem;
+}
+.start-section p{
+    font-weight: 500;
+    font-size: 1.7rem;
+}
+/* WHAT WE OFFER */
+.offer i{
+    color: #ff4f81;
+    font-size: 2rem;
+}
+.offer h4{
+    text-transform: uppercase;
+}
+.offer .offer-item{
+    transition: all 0.5s;
+}
+.offer .offer-item:hover{
+    background-color: #f1c6ea;
+}
+/* TESTIMONIALS */
+.testimonials{
+    background-image: url(../img/banner3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 25rem;
+}
+.testimonials-slider{
+    min-height: 15rem;
+    background-color: rgba(0, 0, 0, 0.247);
+    box-shadow: 0 0 2px 2px rgb(51, 51, 51) ;
+}
+.testimonials .item img{
+    width: 60px;
+    height: 60px;
+}
+.testimonials .item-box{
+    background-color: rgba(0, 0, 0, 0.767);
+}
+.testimonials .owl-theme .owl-dots .owl-dot span{
+background-color: #ff4f81;
+}
+/* NEWS AND EVENTS */
+.news h4{
+    color: #ff4f81;
+}
+/* FOOTER */
+footer h4{
+    color: #ff4f81;
+}
+footer button{
+    background-color: #ff4f81;
+}
+footer .copy-right span{
+color: #ff4f81;
+}
+
+
+/* MEDIA QUERY */
+@media screen and (min-width:760px) and (max-width:991px){
+    nav .navbar-brand--logo h1{
+        font-size: 1.7rem;
+    }
+    nav .navbar-nav--menu .nav-link{
+        font-size: 1.1rem;
+    }
+    nav .navbar-nav--menu li{
+    padding: 0 0.3rem;
+    }
+}
